@@ -16,7 +16,7 @@ const Footer = () => {
       <Link
         to="/"
         className={`${
-          currentPath === "/home"
+          currentPath === "/"
             ? "text-[#edc075] font-bold underline"
             : "text-gray-600"
         } `}
